@@ -1,0 +1,34 @@
+/* Common styles for both mobile and desktop */
+.about-container {
+  background-image: url('aboutPicture.jpg'); /* Set the background image path */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Text color on the background image */
+}
+
+.about-text {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Mobile-specific styles using media queries */
+@media screen and (max-width: 960px) {
+  .about-container {
+    /* Adjust background styles for mobile */
+    background-size: 100% 100%; /* Set background size to cover entire container */
+    background-attachment: scroll; /* Allow background to scroll with content */
+  }
+
+  .about-text h1 {
+    font-size: 24px; /* Reduce font size for h1 on mobile */
+  }
+
+  .about-text p {
+    font-size: 16px; /* Reduce font size for p on mobile */
+  }
+}
