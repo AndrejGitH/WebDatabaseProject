@@ -5,5 +5,6 @@ Half of the app was initially based on a YouTube project by Martyx, while the ot
 
 
 
-![WebAppGif](https://github.com/AndrejGitH/WebDatabaseProject/assets/141548698/079eb0ec-9406-47de-befc-92fd4b1a3739)
 
+
+![WebAppGif](https://github.com/AndrejGitH/WebDatabaseProject/assets/141548698/15489171-9b78-401f-a4f0-af48151f5f0f)
